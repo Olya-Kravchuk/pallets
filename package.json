@@ -1,11 +1,11 @@
 {
-  "name": "template-js",
+  "name": "pallets",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/template-js/",
+    "build": "vite build --base=/pallets/",
     "preview": "vite preview"
   },
   "devDependencies": {
