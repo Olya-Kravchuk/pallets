@@ -1,13 +1,31 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
+    <!-- <link rel="stylesheet" href="./css/fonts.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <main>
+      <!-- <div class="loader-container">
+        <div class="loader"></div>
+      </div> -->
+      <div class="container">
+        <load src="./partials/hero.html" />
+      </div>
+    </main>
+    <button class="scroll-up">
+      <svg class="scroll-up-icon" width="28" height="28">
+        <use
+          class="scroll-up-button-arrow"
+          href="./img/symbol-defs.svg#icon-Vector-scroll"
+        ></use>
+      </svg>
+    </button>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
